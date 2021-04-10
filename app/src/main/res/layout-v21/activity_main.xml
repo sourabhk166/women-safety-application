@@ -39,7 +39,6 @@
                 android:layout_marginTop="15dp"
                 android:layout_weight="4"
                 android:text="Always with You"
-                android:textStyle="bold"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="#FFF8DC"
                 android:textSize="30dp" />
@@ -85,9 +84,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="5"
                     android:text="Emergency Call"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:textColor="@color/black"
-                    android:paddingLeft="40dp"/>
+                    android:paddingLeft="44dp"/>
 
             </LinearLayout>
 
@@ -115,9 +114,9 @@
                     android:layout_height="match_parent"
                     android:text="Live Location"
                     android:layout_weight="5"
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="30dp"/>
+                    android:layout_marginLeft="40dp"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -150,9 +149,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="5"
                     android:text="Self Defence "
-                    android:textSize="20dp"
+                    android:textSize="15dp"
                     android:textColor="@color/black"
-                    android:paddingLeft="40dp"/>
+                    android:paddingLeft="50dp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -178,9 +177,9 @@
                     android:layout_height="match_parent"
                     android:text="Add Contacts"
                     android:layout_weight="5"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="30dp" android:layout_marginRight="20dp"/>
+                    android:layout_marginLeft="50dp" android:layout_marginRight="20dp"/>
 
             </LinearLayout>
         </LinearLayout>
@@ -214,9 +213,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="4"
                     android:text="@string/report_online"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:textColor="@color/black"
-                    android:paddingStart="40dp"
+                    android:paddingStart="50dp"
                     tools:ignore="RtlSymmetry" />
             </LinearLayout>
 
@@ -242,8 +241,8 @@
                     android:text="Send Feedback"
                     android:layout_weight="4"
                     android:textColor="@color/black"
-                    android:textSize="20dp"
-                    android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+                    android:textSize="15dp"
+                    android:layout_marginLeft="40dp" android:layout_marginRight="20dp"/>
             </LinearLayout>
         </LinearLayout>
 
