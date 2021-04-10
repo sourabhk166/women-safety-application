@@ -6,4 +6,6 @@
     <string name="contact_icon">contact icon</string>
     <string name="report_icon">report icon</string>
     <string name="feedback_icon">feedback icon</string>
+    <string name="home_icon">home icon</string>
+    <string name="report_online">Report Online</string>
 </resources>
