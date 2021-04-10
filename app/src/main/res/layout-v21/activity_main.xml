@@ -21,19 +21,21 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/callBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="@string/call_icon"
                 android:scaleType="fitCenter"
-                android:tint="#000000"
                 app:srcCompat="@drawable/ic_call" />
 
             <ImageButton
-                android:id="@+id/imageButton2"
+                android:id="@+id/locationBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="@string/location_icon"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ic_location" />
         </LinearLayout>
 
@@ -44,18 +46,23 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton3"
+                android:id="@+id/videoBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:contentDescription="@string/video_icon"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/ic_video" />
 
             <ImageButton
-                android:id="@+id/imageButton4"
+                android:id="@+id/contactBtn"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/ic_contacts" />
+                android:contentDescription="@string/contact_icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_contacts"
+                tools:ignore="VectorDrawableCompat" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,6 +70,24 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/reportBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/report_icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_report" />
+
+            <ImageButton
+                android:id="@+id/feedbackBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/feedback_icon"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ic_feedback" />
         </LinearLayout>
 
     </LinearLayout>
