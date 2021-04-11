@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WomenSafety">
-        <activity android:name=".Location"></activity>
+        <activity android:name=".Feedback"></activity>
+        <activity android:name=".Report" />
+        <activity android:name=".Location" />
         <activity android:name=".Contact" />
         <activity android:name=".EmergencyCall" />
 
