@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Location.class));
+                startActivity(new Intent(MainActivity.this, LiveLocationScreen.class));
             }
         });
 

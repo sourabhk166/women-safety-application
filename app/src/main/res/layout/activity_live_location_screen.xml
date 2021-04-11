@@ -7,18 +7,18 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center_horizontal"
-    tools:context=".Location">
+    tools:context=".LiveLocationScreen">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bt_location"
-        android:text="Get_Location"/>
+        android:text="Get Location"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="32dp">
+        android:layout_marginTop="15sp">
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -58,7 +58,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"
         android:id="@+id/text_view5"/>
+
+    <ImageView
+        android:id="@+id/mapPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="177dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/maps" />
+
+    <Button
+        android:id="@+id/sendLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Location" />
 
 
 </LinearLayout>
